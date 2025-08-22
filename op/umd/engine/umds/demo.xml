@@ -1,0 +1,116 @@
+<umd>
+  <setup>
+    <model id="albums with tracks">
+      <list type="arr">
+        <album type="obj">
+          <artist type="str" />
+          <cover type="str" />
+          <title type="str" />
+          <tracks type="obj">
+            <name type="str" />
+            <duration type="float" />
+          </tracks>
+        </album>
+      </list>
+    </model>
+  </setup>
+  <pipeline id="db data 2 doc">
+    <var id="covers" />
+    <var id="db" />
+    <var id="template source" />
+    <var id="template target" />
+    <var id="cache" />
+    <var id="media" />
+    <cmd id="query db albums" path="[db/sqlite/query]">
+      <input db="[use/test db]">
+        select 
+          albums.AlbumId as id,
+          albums.Title as album,
+          artists.Name as artist
+        from albums
+        inner join artists 
+          on artists.ArtistId = albums.ArtistId
+      </input>
+    </cmd>
+    <cmd id="query db tracks" path="[db/sqlite/query]">
+      <input db="[use/test db]">
+        select AlbumId, Name, Milliseconds from tracks
+      </input>
+    </cmd>
+    <cmd id="format covers" path="[data/map]">
+      <input>
+        <eval>
+          output = []
+          for id, url in input['use']['covers'].items():
+            output.append({ 'id': id, 'url': url })
+        </eval>
+        <use covers="[use/cover images]" />
+      </input>
+    </cmd>
+    <cmd id="fetch covers" path="[run/pipe]">
+      <input id="fetch album cover image" data="[output/format covers]">
+        <var id="id">[cmd/data/id]</var>
+        <var id="url">[cmd/data/url]</var>
+        <var id="cache">[var/cache]</var>
+        <var id="media">[var/media]</var>
+      </input>
+    </cmd>
+    <cmd id="map results" path="[data/map]">
+      <input model="[model/albums with tracks]">
+        <copy source="[albums/album]" target="[list/album/title]" />
+        <copy source="[albums/artist]" target="[list/album/artist]" />
+        <eval>
+          for index, album in enumerate(input['use']['albums']):
+            for track in input['use']['tracks']:
+              id = album['id']
+              if track['AlbumId'] == id:
+                base = '../raw/media'
+                item = input['data']['list'][index]
+                key = str(id)
+                item['cover'] = f'{base}/{key}.jpg' if key in input['use']['covers'] else f'{base}/cover.png'
+                if not 'tracks' in item:
+                  item['tracks'] = []
+                item['tracks'].append({ 'name': track['Name'], 'duration': track['Milliseconds'] / 1000 })
+          output = input['data']
+        </eval>
+        <use albums="[output/query db albums]" />
+        <use covers="[use/cover images]" />
+        <use tracks="[output/query db tracks]" />
+      </input>
+    </cmd>
+    <cmd id="format model" path="[data/map]">
+      <input>
+        <format path="[model/list/tracks/duration]">
+          value = input['value']
+          output = f'{int(value // 60):02d}:{int(value % 60):02d}'
+        </format>
+        <use model="[output/map results]" />
+      </input>
+    </cmd>
+    <cmd id="convert 2 doc" path="[io/text/format]">
+      <input source="[var/template source]">
+        <use source="[var/db]" />
+        <use albums="[output/format model]" />
+      </input>
+    </cmd>
+    <cmd id="save as file" path="[io/text/fs/exp]">
+      <input path="[var/template target]" data="[output/convert 2 doc]" />
+    </cmd>
+    <use id="cover images" load="[io/json/fs/imp]" path="[var/covers]" />
+    <use id="test db" load="[db/use/sqlite]" path="[var/db]" />
+  </pipeline>
+  <pipeline id="fetch album cover image">
+    <var id="id" />
+    <var id="url" />
+    <var id="cache" />
+    <var id="media" />
+    <var id="path" eval="'/'.join([input['media'], input['id'] + '.jpg']).replace('//', '/')" />
+    <cmd id="get album cover image" path="[net/https/api]">
+      <input host="i.discogs.com" path="[var/url]" cache="[var/cache]" format="binary">
+      </input>
+    </cmd>
+    <cmd id="save cover image as a file" path="[io/fs/copy]">
+      <input target="[var/path]" format="binary">[output/get album cover image]</input>
+    </cmd>
+  </pipeline>
+</umd>

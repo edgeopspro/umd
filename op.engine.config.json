@@ -1,0 +1,28 @@
+{
+  "mesh": {
+    "op": {
+      "tags": [ "umd", "umd.engine" ]
+    },
+    "srv": "127.0.0.1:9886"
+  },
+  "services": {
+    "http": {
+      "base": "/mesh/ops",
+      
+      "timeout": 10
+    },
+    "tcp": {
+      "ports": [ 8880, 8890 ]
+    },
+    "umd_demo": {
+     
+    }
+  },
+  "use": {
+    "bin": {
+      "root": "bin",
+      "paths": [ "data", "gen", "meta" ]
+    },
+    "umds": "op/umd/engine/umds"
+  }
+}
