@@ -35,3 +35,6 @@ class EngineRunLog:
   def __repr__(self):
     level = '..' * self.level
     return f'{level}{self.time} {self.kind} {self.msg}'
+
+  def use(self):
+    return [ str(self), self.kind, self.level, self.time, self.msg ]

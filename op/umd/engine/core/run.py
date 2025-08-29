@@ -1,5 +1,6 @@
 from copy import deepcopy
 
+from lib.mesh.task import Task
 from lib.umd.run import EngineRun, EngineRunLog
 from lib.umd import path
 from lib.umd import utils
@@ -21,11 +22,12 @@ class Run(EngineRun):
 
   def logger(self, msg, kind):
     if msg:
-      value = lambda: EngineRunLog(msg, kind, self.level)
-      self.log.append(value)
+      level = self.level
+      value = EngineRunLog(msg, kind, level)
+      self.log.append(str(value))
       hook = self.hooks['log'] if 'log' in self.hooks else None
       if callable(hook):
-        hook(value)
+        Task(hook, (value.use())).run(wait=False)
 
   def err(self, msg):
     self.logger(msg, 'ERR')
@@ -35,6 +37,9 @@ class Run(EngineRun):
 
   def warn(self, msg):
     self.logger(msg, 'WRN')
+
+  def sys(self, msg):
+    self.logger(msg, 'SYS')
 
   def update(self, id, data):
     self.output[id] = data
@@ -72,6 +77,7 @@ class Run(EngineRun):
       self.hooks = hooks
     if self.level == 0:
       self.id = utils.uid()[0:12]
+      self.sys(f'START.RUN {self.id}')
       self.info(f'starting run {self.id}')
     if isinstance(input, dict):
       self.input = deepcopy(input)
@@ -97,7 +103,6 @@ class Run(EngineRun):
                 self.info(f'loading tool found for "{id}" with path {handler.load}')
                 valid = True
                 self.data = resolve({ 'path': handler.path })
-                print('-------', handler.path, self.data, self.ctx)
                 self.ctx.instances[id] = tool(self.ctx, self.data)
                 self.info(f'resource "{id}" load completed')
               except Exception as error:
@@ -105,10 +110,11 @@ class Run(EngineRun):
           if not valid:
             self.warn(f'resource "{id}" has invalid "load" property')
         for cmd in pipeline.commands:
-          postfix = ''
+          postfix = [ '' ]
           if cmd.id:
-            postfix = f' ({cmd.id})'
-          self.info(f'starting command for path {cmd.path}' + postfix)
+            postfix = [ f' ({cmd.id})', f'{self.id}/{id}/{cmd.id}' ]
+            self.sys(f'START.CMD ' + postfix[1])
+          self.info(f'starting command for path {cmd.path}' + postfix[0])
           tool = self.ctx.toolkit.resolve(cmd.path)
           if callable(tool):
             try:
@@ -123,9 +129,13 @@ class Run(EngineRun):
                   cmd.id = f'{uid}/{cmd.id}'
                 self.info(f'updating output of type "{kind}" with id "{cmd.id}"')
                 self.update(cmd.id, output)
-              self.info(f'command with path {cmd.path} completed' + postfix)
+              self.info(f'command with path {cmd.path} completed' + postfix[0])
+              if len(postfix) > 1:
+                self.sys('STOP.CMD(OK) ' + postfix[1])
             except Exception as error:
               self.err(error)
+              if len(postfix) > 1:
+                self.sys('STOP.CMD(KO) ' + postfix[1])
           else:
             self.warn(f'command path {cmd.path} is not valid')
       else:
@@ -134,6 +144,7 @@ class Run(EngineRun):
       self.warn(f'input "{self.input}" must be an object')
     if self.level == 0:
       self.info(f'stopping run {self.id}')
+      self.sys(f'STOP.RUN {self.id}')
       for action in self.posts:
         if callable(action):
           action()

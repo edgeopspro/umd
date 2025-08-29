@@ -5,11 +5,9 @@ def pre(ctx, input):
     results = list(map(lambda prop: obj[prop] if prop in obj else None, props))
     return None if len(list(filter(lambda result: result is None, results))) > 0 else results
 
-  print(111111)
   use = get(ctx.config['use']['bin'], [ 'root', 'paths' ])
   if use:
     bin, paths = use
-    print('***', input)
     use = get(input, [
       'covers',
       'db',

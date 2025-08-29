@@ -1,3 +1,4 @@
+import socket
 from random import randint
 from time import sleep
 
@@ -13,12 +14,18 @@ class TCP(BasicTCP):
     self.host = ctx.setup['srv'].split(':')[0] if 'srv' in ctx.setup else None
     self.port = randint(min, max - 1)
 
-  def event(self, stream, listener, enc='utf-8', retries=10):
-    def handler(host, port, listener, enc, retries):
-      msg = listener()
-      send(host, [ 0, port ], msg, enc, retries)
+  def event(self, stream, listener, enc='utf-8', retries=2):
+    def handler(ctx, host, port, listener, enc, retries):
+      try:
+        msg = listener()
+        send(host, [ 0, port ], msg, enc, retries)
+      except ConnectionResetError:
+        ctx.log(f'resubmitting event after trying to send: {msg}')
+        handler(ctx, host, port, listener, enc, retries)
+      except Exception as error:
+        ctx.log(f'event error: {error}')
 
-    return Task(handler, ( self.host, stream, listener, enc, retries )).run()
+    return Task(handler, ( self.ctx, self.host, stream, listener, enc, retries )).run()
 
   def live(self, stream, interval, listener, enc='utf-8', retries=2):
     def handler(host, port, listener, enc, retries):

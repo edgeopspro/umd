@@ -1,13 +1,3 @@
-# from op.umd.engine.run import http
-
-# http(
-#   [ ],
-#   [ 
-  
-#   ],
-#   'op.engine.config.json'
-# )
-
 from json import dumps
 from time import time
 
@@ -19,17 +9,20 @@ def live(ctx, key):
 
 def proc_http(ctx, state):
   def basic(ctx, run, go, log, output):
-    ctx.log(f'starting run with id {run.id}')
-    go({
-      'log': lambda value: ctx.stream([ 'umd', key, 'log' ], value)
-    })
-    log += list(map(lambda eval: str(eval()), run.log))
-    output = { **output, **run.output }
+    ctx.log(f'starting run')
+    go({ 'log': stream })
+    log += run.log
+    output.append(run.output)
     ctx.log(f'end of run ({run.id})')
+
+  def stream(log, kind, level, time, msg):
+    if kind == 'SYS':
+      ctx.stream([ 'umd', key, 'log' ], lambda: log)
 
   ctx.log('process incoming http payload')
   log = []
-  output = {}
+  output = []
+  result = None
   try:
     payload, heads, info = state
     entry = heads['UMD-ENTRY'] if 'UMD-ENTRY' in heads else None
@@ -47,14 +40,18 @@ def proc_http(ctx, state):
           payload = pre(ctx, payload)
         context.use(payload, [ pipe ])(lambda run, go: basic(ctx, run, go, log, output))
         if post:
-          post(ctx, [ payload, log, output ])
+          post(ctx, [ payload, log, output[-1] ])
   except Exception as error:
-    output = dumps({ 'error': str(error) })
+    result = dumps({ 'error': str(error) })
   finally:
-    ctx.log(output)
+    result = {}
+    for item in output:
+      if isinstance(item, dict):
+        for key, value in item.items():
+          result[key] = str(value) if isinstance(value, bytes) else value
     return {
       'log': log,
-      'output': output
+      'output': result
     }
 
 def start(ctx):

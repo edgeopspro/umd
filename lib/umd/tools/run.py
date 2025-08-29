@@ -41,10 +41,10 @@ def pipeline(ctx, input):
         iteration[key] = handler['use'][index]
       puid = uid()[0:6]
       prefix = f'iteration #{index + 1}:'
-      ctx.run.info(f'{prefix} starting pipeline "{id}" {ctx.run.level} (origin pipeline: "{parent}")')
+      ctx.run.info(f'{prefix} starting pipeline "{id}" (origin pipeline: "{parent}", execution level: {ctx.run.level + 1})')
       ctx.run.level += 1
       ctx.run.info(f'{prefix} reference id is "{puid}"')
       ctx.run.pipe(id, iteration, puid)
       ctx.run.level -= 1
-      ctx.run.info(f'{prefix} completed pipeline "{id}"')
+      ctx.run.info(f'{prefix} completed pipeline "{id}" (current level: {ctx.run.level})')
     ctx.run.pipeline = pipeline
