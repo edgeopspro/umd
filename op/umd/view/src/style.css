@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Oxanium';
+  src: url(public/fonts/Oxanium.woff2) format('woff2');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body, button, input, textarea {
+  font-family: 'Oxanium';
+  font-size: 1em;
+}
+
+#app {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#app > div.frame {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+
+  overflow: scroll;
+}
+
+#app > div.frame > div.content {
+  position: relative;
+}
+
+#app > div.frame > div.content > svg {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#app ::-webkit-scrollbar {
+  width: .9em;
+  background: var(--scroll-back);
+}
+
+#app ::-webkit-scrollbar-thumb {
+  background: var(--scroll-front);
+}
+
+#app #zoom {
+  position: fixed;
+  display: block;
+  width: 7em;
+  height: 40em;
+  bottom: 2em;
+  right: 2em;
+  user-select: none;
+}
+
+#app #zoom > * {
+  position: relative;
+  display: block;
+  font-size: 1.6rem;
+  width: 3.5em;
+  height: 3em;
+  margin: .5em;
+  text-align: center;
+  line-height: 3;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+#app #zoom > *[data-select] {
+  font-size: 2em;
+}
