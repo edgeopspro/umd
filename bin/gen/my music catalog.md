@@ -1,7 +1,7 @@
 # Albums Catalog (bin/data/demo.sqlite)
 
 
-![album cover](../raw/media/1.jpg)
+![album cover](./media/1.jpg)
 ## For Those About To Rock We Salute You
 ```AC/DC```
 | | |
@@ -19,7 +19,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Balls to the Wall
 ```Accept```
 | | |
@@ -28,7 +28,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Restless and Wild
 ```Accept```
 | | |
@@ -39,7 +39,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Let There Be Rock
 ```AC/DC```
 | | |
@@ -55,7 +55,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Big Ones
 ```Aerosmith```
 | | |
@@ -78,7 +78,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Jagged Little Pill
 ```Alanis Morissette```
 | | |
@@ -99,7 +99,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Facelift
 ```Alice In Chains```
 | | |
@@ -119,7 +119,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Warner 25 Anos
 ```Antônio Carlos Jobim```
 | | |
@@ -141,7 +141,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/9.jpg)
+![album cover](./media/9.jpg)
 ## Plays Metallica By Four Cellos
 ```Apocalyptica```
 | | |
@@ -157,7 +157,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/10.jpg)
+![album cover](./media/10.jpg)
 ## Audioslave
 ```Audioslave```
 | | |
@@ -179,7 +179,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Out Of Exile
 ```Audioslave```
 | | |
@@ -199,7 +199,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## BackBeat Soundtrack
 ```BackBeat```
 | | |
@@ -219,7 +219,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Best Of Billy Cobham
 ```Billy Cobham```
 | | |
@@ -235,7 +235,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Alcohol Fueled Brewtality Live! [Disc 1]
 ```Black Label Society```
 | | |
@@ -256,7 +256,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Alcohol Fueled Brewtality Live! [Disc 2]
 ```Black Label Society```
 | | |
@@ -269,7 +269,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/16.jpg)
+![album cover](./media/16.jpg)
 ## Black Sabbath
 ```Black Sabbath```
 | | |
@@ -284,7 +284,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Black Sabbath Vol. 4 (Remaster)
 ```Black Sabbath```
 | | |
@@ -302,7 +302,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Body Count
 ```Body Count```
 | | |
@@ -327,7 +327,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Chemical Wedding
 ```Bruce Dickinson```
 | | |
@@ -346,7 +346,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Best Of Buddy Guy - The Millenium Collection
 ```Buddy Guy```
 | | |
@@ -365,7 +365,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Prenda Minha
 ```Caetano Veloso```
 | | |
@@ -391,7 +391,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Sozinho Remix Ao Vivo
 ```Caetano Veloso```
 | | |
@@ -402,7 +402,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Minha Historia
 ```Chico Buarque```
 | | |
@@ -444,7 +444,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Afrociberdelia
 ```Chico Science & Nação Zumbi```
 | | |
@@ -475,7 +475,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Da Lama Ao Caos
 ```Chico Science & Nação Zumbi```
 | | |
@@ -496,7 +496,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Acústico MTV [Live]
 ```Cidade Negra```
 | | |
@@ -521,7 +521,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Cidade Negra - Hits
 ```Cidade Negra```
 | | |
@@ -543,7 +543,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Na Pista
 ```Cláudio Zoli```
 | | |
@@ -561,7 +561,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Axé Bahia 2001
 ```Various Artists```
 | | |
@@ -583,7 +583,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## BBC Sessions [Disc 1] [Live]
 ```Led Zeppelin```
 | | |
@@ -605,7 +605,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bongo Fury
 ```Frank Zappa & Captain Beefheart```
 | | |
@@ -622,7 +622,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Carnaval 2001
 ```Various Artists```
 | | |
@@ -644,7 +644,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Chill: Brazil (Disc 1)
 ```Marcos Valle```
 | | |
@@ -669,7 +669,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Chill: Brazil (Disc 2)
 ```Antônio Carlos Jobim```
 | | |
@@ -694,7 +694,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Garage Inc. (Disc 1)
 ```Metallica```
 | | |
@@ -713,7 +713,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Greatest Hits II
 ```Queen```
 | | |
@@ -738,7 +738,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Greatest Kiss
 ```Kiss```
 | | |
@@ -766,7 +766,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Heart of the Night
 ```Spyro Gyra```
 | | |
@@ -786,7 +786,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## International Superhits
 ```Green Day```
 | | |
@@ -815,7 +815,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Into The Light
 ```David Coverdale```
 | | |
@@ -835,7 +835,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Meus Momentos
 ```Gonzaguinha```
 | | |
@@ -857,7 +857,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Minha História
 ```Os Mutantes```
 | | |
@@ -879,7 +879,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## MK III The Final Concerts [Disc 1]
 ```Deep Purple```
 | | |
@@ -894,7 +894,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Physical Graffiti [Disc 1]
 ```Led Zeppelin```
 | | |
@@ -908,7 +908,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Sambas De Enredo 2001
 ```Various Artists```
 | | |
@@ -930,7 +930,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Supernatural
 ```Santana```
 | | |
@@ -951,7 +951,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Best of Ed Motta
 ```Ed Motta```
 | | |
@@ -973,7 +973,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Essential Miles Davis [Disc 1]
 ```Miles Davis```
 | | |
@@ -994,7 +994,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Essential Miles Davis [Disc 2]
 ```Miles Davis```
 | | |
@@ -1012,7 +1012,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Final Concerts (Disc 2)
 ```Deep Purple```
 | | |
@@ -1024,7 +1024,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Up An' Atom
 ```Gene Krupa```
 | | |
@@ -1054,7 +1054,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Vinícius De Moraes - Sem Limite
 ```Toquinho & Vinícius```
 | | |
@@ -1077,7 +1077,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Vozes do MPB
 ```Various Artists```
 | | |
@@ -1099,7 +1099,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Chronicle, Vol. 1
 ```Creedence Clearwater Revival```
 | | |
@@ -1127,7 +1127,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Chronicle, Vol. 2
 ```Creedence Clearwater Revival```
 | | |
@@ -1155,7 +1155,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Cássia Eller - Coleção Sem Limite [Disc 2]
 ```Cássia Eller```
 | | |
@@ -1178,7 +1178,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Cássia Eller - Sem Limite [Disc 1]
 ```Cássia Eller```
 | | |
@@ -1201,7 +1201,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Come Taste The Band
 ```Deep Purple```
 | | |
@@ -1218,7 +1218,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Deep Purple In Rock
 ```Deep Purple```
 | | |
@@ -1233,7 +1233,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Fireball
 ```Deep Purple```
 | | |
@@ -1248,7 +1248,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Knocking at Your Back Door: The Best Of Deep Purple in the 80's
 ```Deep Purple```
 | | |
@@ -1267,7 +1267,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Machine Head
 ```Deep Purple```
 | | |
@@ -1282,7 +1282,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Purpendicular
 ```Deep Purple```
 | | |
@@ -1302,7 +1302,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Slaves And Masters
 ```Deep Purple```
 | | |
@@ -1319,7 +1319,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Stormbringer
 ```Deep Purple```
 | | |
@@ -1336,7 +1336,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Battle Rages On
 ```Deep Purple```
 | | |
@@ -1354,7 +1354,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Vault: Def Leppard's Greatest Hits
 ```Def Leppard```
 | | |
@@ -1378,7 +1378,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Outbreak
 ```Dennis Chambers```
 | | |
@@ -1395,7 +1395,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Djavan Ao Vivo - Vol. 02
 ```Djavan```
 | | |
@@ -1416,7 +1416,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Djavan Ao Vivo - Vol. 1
 ```Djavan```
 | | |
@@ -1437,7 +1437,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Elis Regina-Minha História
 ```Elis Regina```
 | | |
@@ -1459,7 +1459,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Cream Of Clapton
 ```Eric Clapton```
 | | |
@@ -1485,7 +1485,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Unplugged
 ```Eric Clapton```
 | | |
@@ -1523,7 +1523,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Album Of The Year
 ```Faith No More```
 | | |
@@ -1543,7 +1543,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Angel Dust
 ```Faith No More```
 | | |
@@ -1565,7 +1565,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## King For A Day Fool For A Lifetime
 ```Faith No More```
 | | |
@@ -1588,7 +1588,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Real Thing
 ```Faith No More```
 | | |
@@ -1607,7 +1607,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Deixa Entrar
 ```Falamansa```
 | | |
@@ -1629,7 +1629,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## In Your Honor [Disc 1]
 ```Foo Fighters```
 | | |
@@ -1647,7 +1647,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## In Your Honor [Disc 2]
 ```Foo Fighters```
 | | |
@@ -1665,7 +1665,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## One By One
 ```Foo Fighters```
 | | |
@@ -1684,7 +1684,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Colour And The Shape
 ```Foo Fighters```
 | | |
@@ -1705,7 +1705,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## My Way: The Best Of Frank Sinatra [Disc 1]
 ```Frank Sinatra```
 | | |
@@ -1737,7 +1737,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Roda De Funk
 ```Funk Como Le Gusta```
 | | |
@@ -1761,7 +1761,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## As Canções de Eu Tu Eles
 ```Gilberto Gil```
 | | |
@@ -1783,7 +1783,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Quanta Gente Veio Ver (Live)
 ```Gilberto Gil```
 | | |
@@ -1806,7 +1806,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Quanta Gente Veio ver--Bônus De Carnaval
 ```Gilberto Gil```
 | | |
@@ -1817,7 +1817,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Faceless
 ```Godsmack```
 | | |
@@ -1837,7 +1837,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## American Idiot
 ```Green Day```
 | | |
@@ -1858,7 +1858,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Appetite for Destruction
 ```Guns N' Roses```
 | | |
@@ -1878,7 +1878,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Use Your Illusion I
 ```Guns N' Roses```
 | | |
@@ -1902,7 +1902,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Use Your Illusion II
 ```Guns N' Roses```
 | | |
@@ -1924,7 +1924,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Blue Moods
 ```Incognito```
 | | |
@@ -1945,7 +1945,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## A Matter of Life and Death
 ```Iron Maiden```
 | | |
@@ -1964,7 +1964,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## A Real Dead One
 ```Iron Maiden```
 | | |
@@ -1984,7 +1984,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## A Real Live One
 ```Iron Maiden```
 | | |
@@ -2003,7 +2003,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Brave New World
 ```Iron Maiden```
 | | |
@@ -2021,7 +2021,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Dance Of Death
 ```Iron Maiden```
 | | |
@@ -2040,7 +2040,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Fear Of The Dark
 ```Iron Maiden```
 | | |
@@ -2060,7 +2060,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Iron Maiden
 ```Iron Maiden```
 | | |
@@ -2077,7 +2077,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Killers
 ```Iron Maiden```
 | | |
@@ -2095,7 +2095,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Live After Death
 ```Iron Maiden```
 | | |
@@ -2121,7 +2121,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Live At Donington 1992 (Disc 1)
 ```Iron Maiden```
 | | |
@@ -2139,7 +2139,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Live At Donington 1992 (Disc 2)
 ```Iron Maiden```
 | | |
@@ -2157,7 +2157,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## No Prayer For The Dying
 ```Iron Maiden```
 | | |
@@ -2175,7 +2175,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Piece Of Mind
 ```Iron Maiden```
 | | |
@@ -2192,7 +2192,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Powerslave
 ```Iron Maiden```
 | | |
@@ -2208,7 +2208,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Rock In Rio [CD1]
 ```Iron Maiden```
 | | |
@@ -2226,7 +2226,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Rock In Rio [CD2]
 ```Iron Maiden```
 | | |
@@ -2243,7 +2243,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Seventh Son of a Seventh Son
 ```Iron Maiden```
 | | |
@@ -2259,7 +2259,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Somewhere in Time
 ```Iron Maiden```
 | | |
@@ -2275,7 +2275,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Number of The Beast
 ```Iron Maiden```
 | | |
@@ -2291,7 +2291,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The X Factor
 ```Iron Maiden```
 | | |
@@ -2310,7 +2310,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Virtual XI
 ```Iron Maiden```
 | | |
@@ -2326,7 +2326,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Sex Machine
 ```James Brown```
 | | |
@@ -2354,7 +2354,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Emergency On Planet Earth
 ```Jamiroquai```
 | | |
@@ -2372,7 +2372,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Synkronized
 ```Jamiroquai```
 | | |
@@ -2391,7 +2391,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Return Of The Space Cowboy
 ```Jamiroquai```
 | | |
@@ -2410,7 +2410,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Get Born
 ```JET```
 | | |
@@ -2431,7 +2431,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Are You Experienced?
 ```Jimi Hendrix```
 | | |
@@ -2456,7 +2456,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Surfing with the Alien (Remastered)
 ```Joe Satriani```
 | | |
@@ -2474,7 +2474,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Jorge Ben Jor 25 Anos
 ```Jorge Ben```
 | | |
@@ -2496,7 +2496,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Jota Quest-1995
 ```Jota Quest```
 | | |
@@ -2516,7 +2516,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Cafezinho
 ```João Suplicy```
 | | |
@@ -2538,7 +2538,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Living After Midnight
 ```Judas Priest```
 | | |
@@ -2562,7 +2562,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Unplugged [Live]
 ```Kiss```
 | | |
@@ -2585,7 +2585,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## BBC Sessions [Disc 2] [Live]
 ```Led Zeppelin```
 | | |
@@ -2603,7 +2603,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Coda
 ```Led Zeppelin```
 | | |
@@ -2619,7 +2619,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Houses Of The Holy
 ```Led Zeppelin```
 | | |
@@ -2635,7 +2635,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## In Through The Out Door
 ```Led Zeppelin```
 | | |
@@ -2650,7 +2650,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## IV
 ```Led Zeppelin```
 | | |
@@ -2666,7 +2666,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Led Zeppelin I
 ```Led Zeppelin```
 | | |
@@ -2683,7 +2683,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Led Zeppelin II
 ```Led Zeppelin```
 | | |
@@ -2700,7 +2700,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Led Zeppelin III
 ```Led Zeppelin```
 | | |
@@ -2718,7 +2718,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Physical Graffiti [Disc 2]
 ```Led Zeppelin```
 | | |
@@ -2735,7 +2735,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Presence
 ```Led Zeppelin```
 | | |
@@ -2750,7 +2750,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Song Remains The Same (Disc 1)
 ```Led Zeppelin```
 | | |
@@ -2763,7 +2763,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Song Remains The Same (Disc 2)
 ```Led Zeppelin```
 | | |
@@ -2775,7 +2775,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## A TempestadeTempestade Ou O Livro Dos Dias
 ```Legião Urbana```
 | | |
@@ -2798,7 +2798,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Mais Do Mesmo
 ```Legião Urbana```
 | | |
@@ -2822,7 +2822,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Greatest Hits
 ```Lenny Kravitz```
 | | |
@@ -2887,7 +2887,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Lulu Santos - RCA 100 Anos De Música - Álbum 01
 ```Lulu Santos```
 | | |
@@ -2909,7 +2909,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Lulu Santos - RCA 100 Anos De Música - Álbum 02
 ```Lulu Santos```
 | | |
@@ -2931,7 +2931,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Misplaced Childhood
 ```Marillion```
 | | |
@@ -2949,7 +2949,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Barulhinho Bom
 ```Marisa Monte```
 | | |
@@ -2975,7 +2975,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Seek And Shall Find: More Of The Best (1963-1981)
 ```Marvin Gaye```
 | | |
@@ -3001,7 +3001,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Best Of Men At Work
 ```Men At Work```
 | | |
@@ -3019,7 +3019,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Black Album
 ```Metallica```
 | | |
@@ -3039,7 +3039,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Garage Inc. (Disc 2)
 ```Metallica```
 | | |
@@ -3063,7 +3063,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Kill 'Em All
 ```Metallica```
 | | |
@@ -3081,7 +3081,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Load
 ```Metallica```
 | | |
@@ -3103,7 +3103,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Master Of Puppets
 ```Metallica```
 | | |
@@ -3119,7 +3119,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## ReLoad
 ```Metallica```
 | | |
@@ -3140,7 +3140,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Ride The Lightning
 ```Metallica```
 | | |
@@ -3156,7 +3156,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## St. Anger
 ```Metallica```
 | | |
@@ -3175,7 +3175,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## ...And Justice For All
 ```Metallica```
 | | |
@@ -3192,7 +3192,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Miles Ahead
 ```Miles Davis```
 | | |
@@ -3214,7 +3214,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Milton Nascimento Ao Vivo
 ```Milton Nascimento```
 | | |
@@ -3235,7 +3235,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Minas
 ```Milton Nascimento```
 | | |
@@ -3256,7 +3256,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Ace Of Spades
 ```Motörhead```
 | | |
@@ -3279,7 +3279,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Demorou...
 ```Mônica Marianno```
 | | |
@@ -3299,7 +3299,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Motley Crue Greatest Hits
 ```Mötley Crüe```
 | | |
@@ -3324,7 +3324,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## From The Muddy Banks Of The Wishkah [Live]
 ```Nirvana```
 | | |
@@ -3349,7 +3349,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Nevermind
 ```Nirvana```
 | | |
@@ -3369,7 +3369,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Compositores
 ```O Terço```
 | | |
@@ -3392,7 +3392,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Olodum
 ```Olodum```
 | | |
@@ -3414,7 +3414,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Acústico MTV
 ```Os Paralamas Do Sucesso```
 | | |
@@ -3443,7 +3443,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Arquivo II
 ```Os Paralamas Do Sucesso```
 | | |
@@ -3463,7 +3463,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Arquivo Os Paralamas Do Sucesso
 ```Os Paralamas Do Sucesso```
 | | |
@@ -3487,7 +3487,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/170.jpg)
+![album cover](./media/170.jpg)
 ## Bark at the Moon (Remastered)
 ```Ozzy Osbourne```
 | | |
@@ -3496,7 +3496,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Blizzard of Ozz
 ```Ozzy Osbourne```
 | | |
@@ -3506,7 +3506,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Diary of a Madman (Remastered)
 ```Ozzy Osbourne```
 | | |
@@ -3515,7 +3515,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## No More Tears (Remastered)
 ```Ozzy Osbourne```
 | | |
@@ -3525,7 +3525,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Tribute
 ```Ozzy Osbourne```
 | | |
@@ -3547,7 +3547,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Walking Into Clarksdale
 ```Page & Plant```
 | | |
@@ -3567,7 +3567,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Original Soundtracks 1
 ```Passengers```
 | | |
@@ -3589,7 +3589,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Beast Live
 ```Paul D'Ianno```
 | | |
@@ -3607,7 +3607,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Live On Two Legs [Live]
 ```Pearl Jam```
 | | |
@@ -3631,7 +3631,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Pearl Jam
 ```Pearl Jam```
 | | |
@@ -3652,7 +3652,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Riot Act
 ```Pearl Jam```
 | | |
@@ -3675,7 +3675,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Ten
 ```Pearl Jam```
 | | |
@@ -3694,7 +3694,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Vs.
 ```Pearl Jam```
 | | |
@@ -3714,7 +3714,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Dark Side Of The Moon
 ```Pink Floyd```
 | | |
@@ -3731,7 +3731,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Os Cães Ladram Mas A Caravana Não Pára
 ```Planet Hemp```
 | | |
@@ -3755,7 +3755,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Greatest Hits I
 ```Queen```
 | | |
@@ -3780,7 +3780,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## News Of The World
 ```Queen```
 | | |
@@ -3799,7 +3799,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Out Of Time
 ```R.E.M. Feat. Kate Pearson```
 | | |
@@ -3818,7 +3818,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Green
 ```R.E.M.```
 | | |
@@ -3837,7 +3837,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## New Adventures In Hi-Fi
 ```R.E.M.```
 | | |
@@ -3859,7 +3859,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Best Of R.E.M.: The IRS Years
 ```R.E.M.```
 | | |
@@ -3883,7 +3883,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Cesta Básica
 ```Raimundos```
 | | |
@@ -3901,7 +3901,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Raul Seixas
 ```Raul Seixas```
 | | |
@@ -3923,7 +3923,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Blood Sugar Sex Magik
 ```Red Hot Chili Peppers```
 | | |
@@ -3948,7 +3948,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## By The Way
 ```Red Hot Chili Peppers```
 | | |
@@ -3972,7 +3972,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Californication
 ```Red Hot Chili Peppers```
 | | |
@@ -3995,7 +3995,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Retrospective I (1974-1980)
 ```Rush```
 | | |
@@ -4017,7 +4017,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Santana - As Years Go By
 ```Santana```
 | | |
@@ -4033,7 +4033,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Santana Live
 ```Santana```
 | | |
@@ -4047,7 +4047,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Maquinarama
 ```Skank```
 | | |
@@ -4067,7 +4067,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## O Samba Poconé
 ```Skank```
 | | |
@@ -4086,7 +4086,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Judas 0: B-Sides and Rarities
 ```Smashing Pumpkins```
 | | |
@@ -4110,7 +4110,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Rotten Apples: Greatest Hits
 ```Smashing Pumpkins```
 | | |
@@ -4136,7 +4136,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## A-Sides
 ```Soundgarden```
 | | |
@@ -4161,7 +4161,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Morning Dance
 ```Spyro Gyra```
 | | |
@@ -4178,7 +4178,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## In Step
 ```Stevie Ray Vaughan & Double Trouble```
 | | |
@@ -4196,7 +4196,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Core
 ```Stone Temple Pilots```
 | | |
@@ -4216,7 +4216,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Mezmerize
 ```System Of A Down```
 | | |
@@ -4235,7 +4235,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## [1997] Black Light Syndrome
 ```Terry Bozzio, Tony Levin & Steve Stevens```
 | | |
@@ -4250,7 +4250,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Live [Disc 1]
 ```The Black Crowes```
 | | |
@@ -4268,7 +4268,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Live [Disc 2]
 ```The Black Crowes```
 | | |
@@ -4285,7 +4285,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Singles
 ```The Clash```
 | | |
@@ -4311,7 +4311,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Beyond Good And Evil
 ```The Cult```
 | | |
@@ -4331,7 +4331,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Pure Cult: The Best Of The Cult (For Rockers, Ravers, Lovers & Sinners) [UK]
 ```The Cult```
 | | |
@@ -4357,7 +4357,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Doors
 ```The Doors```
 | | |
@@ -4376,7 +4376,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Police Greatest Hits
 ```The Police```
 | | |
@@ -4398,7 +4398,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Hot Rocks, 1964-1971 (Disc 1)
 ```The Rolling Stones```
 | | |
@@ -4418,7 +4418,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## No Security
 ```The Rolling Stones```
 | | |
@@ -4440,7 +4440,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Voodoo Lounge
 ```The Rolling Stones```
 | | |
@@ -4463,7 +4463,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Tangents
 ```The Tea Party```
 | | |
@@ -4486,7 +4486,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Transmission
 ```The Tea Party```
 | | |
@@ -4505,7 +4505,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## My Generation - The Very Best Of The Who
 ```The Who```
 | | |
@@ -4533,7 +4533,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Serie Sem Limite (Disc 1)
 ```Tim Maia```
 | | |
@@ -4556,7 +4556,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Serie Sem Limite (Disc 2)
 ```Tim Maia```
 | | |
@@ -4579,7 +4579,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Acústico
 ```Titãs```
 | | |
@@ -4609,7 +4609,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Volume Dois
 ```Titãs```
 | | |
@@ -4633,7 +4633,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Battlestar Galactica: The Story So Far
 ```Battlestar Galactica```
 | | |
@@ -4642,7 +4642,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Battlestar Galactica, Season 3
 ```Battlestar Galactica```
 | | |
@@ -4669,7 +4669,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Heroes, Season 1
 ```Heroes```
 | | |
@@ -4700,7 +4700,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Lost, Season 3
 ```Lost```
 | | |
@@ -4734,7 +4734,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Lost, Season 1
 ```Lost```
 | | |
@@ -4767,7 +4767,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Lost, Season 2
 ```Lost```
 | | |
@@ -4799,7 +4799,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Achtung Baby
 ```U2```
 | | |
@@ -4819,7 +4819,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## All That You Can't Leave Behind
 ```U2```
 | | |
@@ -4838,7 +4838,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## B-Sides 1980-1990
 ```U2```
 | | |
@@ -4861,7 +4861,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## How To Dismantle An Atomic Bomb
 ```U2```
 | | |
@@ -4880,7 +4880,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Pop
 ```U2```
 | | |
@@ -4900,7 +4900,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Rattle And Hum
 ```U2```
 | | |
@@ -4925,7 +4925,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Best Of 1980-1990
 ```U2```
 | | |
@@ -4947,7 +4947,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## War
 ```U2```
 | | |
@@ -4965,7 +4965,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Zooropa
 ```U2```
 | | |
@@ -4983,7 +4983,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## UB40 The Best Of - Volume Two [UK]
 ```UB40```
 | | |
@@ -5005,7 +5005,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Diver Down
 ```Van Halen```
 | | |
@@ -5025,7 +5025,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Best Of Van Halen, Vol. I
 ```Van Halen```
 | | |
@@ -5050,7 +5050,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Van Halen
 ```Van Halen```
 | | |
@@ -5069,7 +5069,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Van Halen III
 ```Van Halen```
 | | |
@@ -5089,7 +5089,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Contraband
 ```Velvet Revolver```
 | | |
@@ -5110,7 +5110,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Vinicius De Moraes
 ```Vinícius De Moraes```
 | | |
@@ -5133,7 +5133,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Ao Vivo [IMPORT]
 ```Zeca Pagodinho```
 | | |
@@ -5160,7 +5160,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Office, Season 1
 ```The Office```
 | | |
@@ -5174,7 +5174,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Office, Season 2
 ```The Office```
 | | |
@@ -5204,7 +5204,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Office, Season 3
 ```The Office```
 | | |
@@ -5237,7 +5237,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Un-Led-Ed
 ```Dread Zeppelin```
 | | |
@@ -5246,7 +5246,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Battlestar Galactica (Classic), Season 1
 ```Battlestar Galactica (Classic)```
 | | |
@@ -5278,7 +5278,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Aquaman
 ```Aquaman```
 | | |
@@ -5287,7 +5287,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Instant Karma: The Amnesty International Campaign to Save Darfur
 ```U2```
 | | |
@@ -5318,7 +5318,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Speak of the Devil
 ```Ozzy Osbourne```
 | | |
@@ -5338,7 +5338,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## 20th Century Masters - The Millennium Collection: The Best of Scorpions
 ```Scorpions```
 | | |
@@ -5358,7 +5358,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## House of Pain
 ```House Of Pain```
 | | |
@@ -5385,7 +5385,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Radio Brasil (O Som da Jovem Vanguarda) - Seleccao de Henrique Amaro
 ```O Rappa```
 | | |
@@ -5410,7 +5410,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Cake: B-Sides and Rarities
 ```Cake```
 | | |
@@ -5419,7 +5419,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## LOST, Season 4
 ```Lost```
 | | |
@@ -5444,7 +5444,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Quiet Songs
 ```Aisha Duo```
 | | |
@@ -5454,7 +5454,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Muso Ko
 ```Habib Koité and Bamada```
 | | |
@@ -5464,7 +5464,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Realize
 ```Karsh Kale```
 | | |
@@ -5474,7 +5474,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Every Kind of Light
 ```The Posies```
 | | |
@@ -5484,7 +5484,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Duos II
 ```Luciana Souza/Romero Lubambo```
 | | |
@@ -5493,7 +5493,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Worlds
 ```Aaron Goldberg```
 | | |
@@ -5502,7 +5502,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Best of Beethoven
 ```Nicolaus Esterhazy Sinfonia```
 | | |
@@ -5511,7 +5511,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Temple of the Dog
 ```Temple of the Dog```
 | | |
@@ -5529,7 +5529,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Carry On
 ```Chris Cornell```
 | | |
@@ -5551,7 +5551,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Revelations
 ```Audioslave```
 | | |
@@ -5573,7 +5573,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Adorate Deum: Gregorian Chant from the Proper of the Mass
 ```Alberto Turco & Nova Schola Gregoriana```
 | | |
@@ -5582,7 +5582,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Allegri: Miserere
 ```Richard Marlow & The Choir of Trinity College, Cambridge```
 | | |
@@ -5591,7 +5591,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Pachelbel: Canon & Gigue
 ```English Concert & Trevor Pinnock```
 | | |
@@ -5600,7 +5600,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Vivaldi: The Four Seasons
 ```Anne-Sophie Mutter, Herbert Von Karajan & Wiener Philharmoniker```
 | | |
@@ -5609,7 +5609,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bach: Violin Concertos
 ```Hilary Hahn, Jeffrey Kahane, Los Angeles Chamber Orchestra & Margaret Batjer```
 | | |
@@ -5618,7 +5618,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bach: Goldberg Variations
 ```Wilhelm Kempff```
 | | |
@@ -5627,7 +5627,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bach: The Cello Suites
 ```Yo-Yo Ma```
 | | |
@@ -5636,7 +5636,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Handel: The Messiah (Highlights)
 ```Scholars Baroque Ensemble```
 | | |
@@ -5645,7 +5645,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The World of Classical Favourites
 ```Academy of St. Martin in the Fields & Sir Neville Marriner```
 | | |
@@ -5655,7 +5655,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Sir Neville Marriner: A Celebration
 ```Academy of St. Martin in the Fields Chamber Ensemble & Sir Neville Marriner```
 | | |
@@ -5664,7 +5664,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Mozart: Wind Concertos
 ```Berliner Philharmoniker, Claudio Abbado & Sabine Meyer```
 | | |
@@ -5673,7 +5673,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Haydn: Symphonies 99 - 104
 ```Royal Philharmonic Orchestra & Sir Thomas Beecham```
 | | |
@@ -5682,7 +5682,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Beethoven: Symhonies Nos. 5 & 6
 ```Orchestre Révolutionnaire et Romantique & John Eliot Gardiner```
 | | |
@@ -5691,7 +5691,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## A Soprano Inspired
 ```Britten Sinfonia, Ivor Bolton & Lesley Garrett```
 | | |
@@ -5700,7 +5700,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Great Opera Choruses
 ```Chicago Symphony Chorus, Chicago Symphony Orchestra & Sir Georg Solti```
 | | |
@@ -5709,7 +5709,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Wagner: Favourite Overtures
 ```Sir Georg Solti & Wiener Philharmoniker```
 | | |
@@ -5718,7 +5718,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Fauré: Requiem, Ravel: Pavane & Others
 ```Academy of St. Martin in the Fields, John Birch, Sir Neville Marriner & Sylvia McNair```
 | | |
@@ -5727,7 +5727,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Tchaikovsky: The Nutcracker
 ```London Symphony Orchestra & Sir Charles Mackerras```
 | | |
@@ -5736,7 +5736,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Last Night of the Proms
 ```Barry Wordsworth & BBC Concert Orchestra```
 | | |
@@ -5745,7 +5745,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Puccini: Madama Butterfly - Highlights
 ```Herbert Von Karajan, Mirella Freni & Wiener Philharmoniker```
 | | |
@@ -5754,7 +5754,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Holst: The Planets, Op. 32 & Vaughan Williams: Fantasies
 ```Eugene Ormandy```
 | | |
@@ -5763,7 +5763,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Pavarotti's Opera Made Easy
 ```Luciano Pavarotti```
 | | |
@@ -5772,7 +5772,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Great Performances - Barber's Adagio and Other Romantic Favorites for Strings
 ```Leonard Bernstein & New York Philharmonic```
 | | |
@@ -5781,7 +5781,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Carmina Burana
 ```Boston Symphony Orchestra & Seiji Ozawa```
 | | |
@@ -5790,7 +5790,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## A Copland Celebration, Vol. I
 ```Aaron Copland & London Symphony Orchestra```
 | | |
@@ -5799,7 +5799,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bach: Toccata & Fugue in D Minor
 ```Ton Koopman```
 | | |
@@ -5808,7 +5808,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Prokofiev: Symphony No.1
 ```Sergei Prokofiev & Yuri Temirkanov```
 | | |
@@ -5817,7 +5817,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Scheherazade
 ```Chicago Symphony Orchestra & Fritz Reiner```
 | | |
@@ -5826,7 +5826,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bach: The Brandenburg Concertos
 ```Orchestra of The Age of Enlightenment```
 | | |
@@ -5835,7 +5835,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Chopin: Piano Concertos Nos. 1 & 2
 ```Emanuel Ax, Eugene Ormandy & Philadelphia Orchestra```
 | | |
@@ -5844,7 +5844,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Mascagni: Cavalleria Rusticana
 ```James Levine```
 | | |
@@ -5853,7 +5853,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Sibelius: Finlandia
 ```Berliner Philharmoniker & Hans Rosbaud```
 | | |
@@ -5862,7 +5862,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Beethoven Piano Sonatas: Moonlight & Pastorale
 ```Maurizio Pollini```
 | | |
@@ -5871,7 +5871,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Great Recordings of the Century - Mahler: Das Lied von der Erde
 ```Gustav Mahler```
 | | |
@@ -5880,7 +5880,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Elgar: Cello Concerto & Vaughan Williams: Fantasias
 ```Felix Schmidt, London Symphony Orchestra & Rafael Frühbeck de Burgos```
 | | |
@@ -5889,7 +5889,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Adams, John: The Chairman Dances
 ```Edo de Waart & San Francisco Symphony```
 | | |
@@ -5898,7 +5898,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Tchaikovsky: 1812 Festival Overture, Op.49, Capriccio Italien & Beethoven: Wellington's Victory
 ```Antal Doráti & London Symphony Orchestra```
 | | |
@@ -5907,7 +5907,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Palestrina: Missa Papae Marcelli & Allegri: Miserere
 ```Choir Of Westminster Abbey & Simon Preston```
 | | |
@@ -5916,7 +5916,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Prokofiev: Romeo & Juliet
 ```Michael Tilson Thomas & San Francisco Symphony```
 | | |
@@ -5925,7 +5925,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Strauss: Waltzes
 ```Eugene Ormandy```
 | | |
@@ -5934,7 +5934,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Berlioz: Symphonie Fantastique
 ```Michael Tilson Thomas & San Francisco Symphony```
 | | |
@@ -5943,7 +5943,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bizet: Carmen Highlights
 ```Chor der Wiener Staatsoper, Herbert Von Karajan & Wiener Philharmoniker```
 | | |
@@ -5952,7 +5952,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## English Renaissance
 ```The King's Singers```
 | | |
@@ -5962,7 +5962,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Handel: Music for the Royal Fireworks (Original Version 1749)
 ```English Concert & Trevor Pinnock```
 | | |
@@ -5971,7 +5971,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Grieg: Peer Gynt Suites & Sibelius: Pelléas et Mélisande
 ```Berliner Philharmoniker & Herbert Von Karajan```
 | | |
@@ -5980,7 +5980,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Mozart Gala: Famous Arias
 ```Sir Georg Solti, Sumi Jo & Wiener Philharmoniker```
 | | |
@@ -5989,7 +5989,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## SCRIABIN: Vers la flamme
 ```Christopher O'Riley```
 | | |
@@ -5998,7 +5998,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Armada: Music from the Courts of England and Spain
 ```Fretwork```
 | | |
@@ -6007,7 +6007,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Mozart: Symphonies Nos. 40 & 41
 ```Berliner Philharmoniker & Herbert Von Karajan```
 | | |
@@ -6016,7 +6016,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Back to Black
 ```Amy Winehouse```
 | | |
@@ -6036,7 +6036,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Frank
 ```Amy Winehouse```
 | | |
@@ -6055,7 +6055,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Carried to Dust (Bonus Track Version)
 ```Calexico```
 | | |
@@ -6064,7 +6064,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Beethoven: Symphony No. 6 'Pastoral' Etc.
 ```Otto Klemperer & Philharmonia Orchestra```
 | | |
@@ -6073,7 +6073,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bartok: Violin & Viola Concertos
 ```Yehudi Menuhin```
 | | |
@@ -6082,7 +6082,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Mendelssohn: A Midsummer Night's Dream
 ```Philharmonia Orchestra & Sir Neville Marriner```
 | | |
@@ -6091,7 +6091,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Bach: Orchestral Suites Nos. 1 - 4
 ```Academy of St. Martin in the Fields, Sir Neville Marriner & Thurston Dart```
 | | |
@@ -6100,7 +6100,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Charpentier: Divertissements, Airs & Concerts
 ```Les Arts Florissants & William Christie```
 | | |
@@ -6109,7 +6109,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## South American Getaway
 ```The 12 Cellists of The Berlin Philharmonic```
 | | |
@@ -6118,7 +6118,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Górecki: Symphony No. 3
 ```Adrian Leaper & Doreen de Feis```
 | | |
@@ -6127,7 +6127,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Purcell: The Fairy Queen
 ```Roger Norrington, London Classical Players```
 | | |
@@ -6136,7 +6136,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## The Ultimate Relexation Album
 ```Charles Dutoit & L'Orchestre Symphonique de Montréal```
 | | |
@@ -6145,7 +6145,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Purcell: Music for the Queen Mary
 ```Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir```
 | | |
@@ -6154,7 +6154,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Weill: The Seven Deadly Sins
 ```Kent Nagano and Orchestre de l'Opéra de Lyon```
 | | |
@@ -6163,7 +6163,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## J.S. Bach: Chaconne, Suite in E Minor, Partita in E Major & Prelude, Fugue and Allegro
 ```Julian Bream```
 | | |
@@ -6172,7 +6172,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Prokofiev: Symphony No.5 & Stravinksy: Le Sacre Du Printemps
 ```Berliner Philharmoniker & Herbert Von Karajan```
 | | |
@@ -6181,7 +6181,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Szymanowski: Piano Works, Vol. 1
 ```Martin Roscoe```
 | | |
@@ -6190,7 +6190,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Nielsen: The Six Symphonies
 ```Göteborgs Symfoniker & Neeme Järvi```
 | | |
@@ -6199,7 +6199,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Great Recordings of the Century: Paganini's 24 Caprices
 ```Itzhak Perlman```
 | | |
@@ -6208,7 +6208,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Liszt - 12 Études D'Execution Transcendante
 ```Michele Campanella```
 | | |
@@ -6217,7 +6217,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Great Recordings of the Century - Shubert: Schwanengesang, 4 Lieder
 ```Gerald Moore```
 | | |
@@ -6226,7 +6226,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Locatelli: Concertos for Violin, Strings and Continuo, Vol. 3
 ```Mela Tenenbaum, Pro Musica Prague & Richard Kapp```
 | | |
@@ -6235,7 +6235,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Respighi:Pines of Rome
 ```Eugene Ormandy```
 | | |
@@ -6244,7 +6244,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Schubert: The Late String Quartets & String Quintet (3 CD's)
 ```Emerson String Quartet```
 | | |
@@ -6253,7 +6253,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Monteverdi: L'Orfeo
 ```C. Monteverdi, Nigel Rogers - Chiaroscuro; London Baroque; London Cornett & Sackbu```
 | | |
@@ -6262,7 +6262,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Mozart: Chamber Music
 ```Nash Ensemble```
 | | |
@@ -6271,7 +6271,7 @@
 <br/><br/>
 
 
-![album cover](../raw/media/cover.png)
+![album cover](./media/cover.png)
 ## Koyaanisqatsi (Soundtrack from the Motion Picture)
 ```Philip Glass Ensemble```
 | | |

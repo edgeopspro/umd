@@ -64,7 +64,7 @@
             for track in input['use']['tracks']:
               id = album['id']
               if track['AlbumId'] == id:
-                base = '../raw/media'
+                base = './media'
                 item = input['data']['list'][index]
                 key = str(id)
                 item['cover'] = f'{base}/{key}.jpg' if key in input['use']['covers'] else f'{base}/cover.png'

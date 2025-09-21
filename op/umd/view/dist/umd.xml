@@ -1,5 +1,5 @@
-<umd>
-  <setup>
+<?xml version='1.0' encoding='utf8'?>
+<umd><setup>
     <model id="albums with tracks">
       <list type="arr">
         <album type="obj">
@@ -14,7 +14,7 @@
       </list>
     </model>
   </setup>
-  <pipeline id="db data 2 doc" info="Query albums from DB, fetch albums covers from a 3rd-party service and create a data file based on a template\nThis pipeline is for demonstration purposes. For production, please use proper API services for data enrichment">
+  <pipeline id="db data 2 doc" info="Query albums from DB, fetch albums covers from a 3rd-party service and create a data file based on a template\nThis pipeline is for demonstration purposes. For production, please use proper API services for data enrichment" path="demo.xml">
     <var id="covers" />
     <var id="db" />
     <var id="template source" />
@@ -64,7 +64,7 @@
             for track in input['use']['tracks']:
               id = album['id']
               if track['AlbumId'] == id:
-                base = './media'
+                base = '../raw/media'
                 item = input['data']['list'][index]
                 key = str(id)
                 item['cover'] = f'{base}/{key}.jpg' if key in input['use']['covers'] else f'{base}/cover.png'
@@ -99,7 +99,7 @@
     <use id="cover images" load="[io/json/fs/imp]" path="[var/covers]" />
     <use id="test db" load="[db/use/sqlite]" path="[var/db]" />
   </pipeline>
-  <pipeline id="fetch album cover image">
+  <pipeline id="fetch album cover image" path="demo.xml">
     <var id="id" />
     <var id="url" />
     <var id="cache" />
