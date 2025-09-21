@@ -37,4 +37,6 @@ async function app() {
   app.appendChild(menu.render(ctx))
 }
 
-await app()
+(async() => {
+  await app()
+})()

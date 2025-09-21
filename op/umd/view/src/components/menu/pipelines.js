@@ -8,17 +8,27 @@ const css = {
 
 function pipeline(frame, pipeline, ctx) {
   const bar = document.createElement('div')
+  const info = document.createElement('div')
   const output = document.createElement('textarea')
   const panel = document.createElement('div')
   const run = document.createElement('button')
+  const vars = document.createElement('span')
   const id = pipeline.attributes.id.value
+  const parent = pipeline.attributes.path.value
 
   bar.className = 'pipeline bar'
+  info.className = 'info'
   panel.className = 'pipeline panel'
 
   bar.textContent = id
+  info.innerHTML = pipeline.attributes.info && pipeline.attributes.info.value ? pipeline.attributes.info.value.replaceAll('\\n', '<br/>') : ''
   output.setAttribute('readonly', '')
-  panel.textContent = lang.menu.en.pipelines.vars
+  vars.textContent = lang.menu.en.pipelines.vars
+
+  if (info.textContent.length > 0) {
+    panel.appendChild(info)
+  }
+  panel.appendChild(vars)
   run.textContent = lang.menu.en.pipelines.run
 
   for (const handler of query(pipeline, 'var')) {
@@ -30,6 +40,11 @@ function pipeline(frame, pipeline, ctx) {
  
   bar.onclick = async () => {
     if (bar.classList.toggle(css.active)) {
+      for (const element of frame.querySelectorAll('.bar')) {
+        if (element != bar) {
+          element.classList.toggle(css.active, false)
+        }
+      }
       await ctx.render(id)
     }
   }
@@ -43,8 +58,13 @@ function pipeline(frame, pipeline, ctx) {
     const args = update(panel)
     if (args) {
       output.value = ''
-      const result = await http.req('/umd/engine', args, { 'UMD-ENTRY': 'demo', 'UMD-PIPE': id })
-      if (result && result.log) {
+      const result = await http.req('/umd/engine', args, { 
+        'UMD-ENTRY': parent.substring(0, parent.length - 4),
+        'UMD-PIPE': id
+      })
+      if (!result || result.error) {
+        output.value = `!!ERROR!! ${result.error}`
+      } else {
         let index = 0
         const handler = setInterval(() => {
           if (index == result.log.length) {

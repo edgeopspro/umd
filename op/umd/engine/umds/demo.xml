@@ -14,7 +14,7 @@
       </list>
     </model>
   </setup>
-  <pipeline id="db data 2 doc">
+  <pipeline id="db data 2 doc" info="Query albums from DB, fetch albums covers from a 3rd-party service and create a data file based on a template\nThis pipeline is for demonstration purposes. For production, please use proper API services for data enrichment">
     <var id="covers" />
     <var id="db" />
     <var id="template source" />

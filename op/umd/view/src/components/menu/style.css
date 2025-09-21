@@ -85,9 +85,21 @@
 
 #app > div.menu > div.content > div.pipeline.panel {
   font-size: 1em;
-  padding: 0 .5em;
   max-height: 0;
   overflow: hidden;
+  padding: 0;
+}
+
+#app > div.menu > div.content > div.pipeline.panel > .info {
+  font-size: .9em;
+  padding: 1em;
+  line-height: 1.5;
+  background: hsl(from var(--color-mid) h s l / 0.3);
+}
+
+#app > div.menu > div.content > div.pipeline.panel > span {
+  display: inline-block;
+  margin-top: 1em;
 }
 
 #app > div.menu > div.content > div.pipeline.panel > .var > input {
@@ -157,7 +169,6 @@
 }
 
 #app > div.menu > div.content > div.pipeline.active.bar {
-  margin-bottom: .25em;
   border-bottom: none;
   padding: .75em .5em;
   font-weight: bold;
@@ -167,6 +178,7 @@
 #app > div.menu > div.content > div.pipeline.active.bar + div.pipeline.panel {
   padding: .5em;
   max-height: 48em;
+  overflow: auto;
 }
 
 #app > div.menu,
