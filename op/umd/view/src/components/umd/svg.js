@@ -82,7 +82,7 @@ export async function render(pipeline, context) {
 
   const style = `@font-face {
     font-family: 'Oxanium';
-    src: url(public/fonts/Oxanium.woff2) format('woff2');
+    src: url(/fonts/Oxanium.woff2) format('woff2');
   }
   .hint, .label, .title { font-family: ${config.font.name} }
   .hint { font-size: ${config.hint.font.size}pt }

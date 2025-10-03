@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Oxanium';
-  src: url(public/fonts/Oxanium.woff2) format('woff2');
+  src: url(/fonts/Oxanium.woff2) format('woff2');
 }
 
 body {
