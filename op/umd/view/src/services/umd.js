@@ -224,7 +224,7 @@ export async function umd(pre, process, post) {
     const [ parent, tag, name ] = parse(key)
     const values = setup.links[key]
     let unlink = false
-
+    
     if (values.length == 0) {
       if (links.filter(link => link.id == name && link.parent == (ctx.pipeline ? ctx.pipeline : parent) && link.handler.tag == tag) == 0) {
         unlink = true
@@ -272,13 +272,6 @@ export async function umd(pre, process, post) {
     }
   }
 
-  for (const prim of setup.primary) {
-    if (prim.parts.length == 0) {
-      unprim.push(prim)
-    }
-  }
-  remove(setup.primary, unprim)
-
   let y = setup.frame.height
   for (const state of setup.primary) {
     state.height = state.parts.length * config.part.height + (state.parts.length + 1) * space
@@ -294,6 +287,18 @@ export async function umd(pre, process, post) {
   }
   setup.frame.height += space * 2
 
+  const linked = Object.keys(setup.links).map(link => parse(link)[0])
+  
+  setup.primary.forEach((prim, index) => {
+    if (prim.tag == 'setup') return
+    
+    if (linked.indexOf(prim.data.id) < 0) {
+      unprim.push(index)
+    }
+  })
+
+  remove(setup.primary, unprim)
+
   if (process instanceof Function) {
     process(setup)
   }
@@ -302,22 +307,30 @@ export async function umd(pre, process, post) {
 
   for (const link of Object.keys(setup.links)) {
     const source = setup.parts[link], targets = setup.links[link].map(state => state.handler)
-    const from = rect(source.element)
-    const prim = source.tag == 'pipeline'
-    const bindings = link.includes('/var/') || link.includes('/use/')
-    const x = bindings ? from.x1 : from.x2 + (prim ? 40 : 0)
-    const state = {
-      bindings,
-      stroke: bindings ? 'dashed' : 'solid',
-      type: 'output',
-      source: { x, y: adjust(from.y1) + (source.io ? config.part.height / 2 : prim ? config.margin.y / 2 + config.bar.height / 2 : 0) }, 
-      targets: targets.map(target => ({ x, y: adjust(rect(target.element).y1 - config.part.height / 2) }))
-    }
-    state.level = depth([ state.source.y, ...state.targets.map(target => target.y) ], bindings ? 'bind' : 'flow')
 
-    setup.connections.push(state)
+    if (source.element && targets.length > 0) {
+      const from = rect(source.element)
+      const prim = source.tag == 'pipeline'
+      const bindings = link.includes('/var/') || link.includes('/use/')
+      const x = bindings ? from.x1 : from.x2 + (prim ? 40 : 0)
+      const state = {
+        bindings,
+        stroke: bindings ? 'dashed' : 'solid',
+        type: 'output',
+        source: { 
+          id: source.data.id,
+          x,
+          y: adjust(from.y1) + (source.io ? config.part.height / 2 : prim ? config.margin.y / 2 + config.bar.height / 2 : 0)
+        }, 
+        targets: targets.map(target => ({ id: target.data.id, parentX: target, x, y: adjust(rect(target.element).y1 - config.part.height / 2) }))
+      }
+
+      state.level = depth([ state.source.y, ...state.targets.map(target => target.y) ], bindings ? 'bind' : 'flow')
+      
+      setup.connections.push(state)
+    }
   }
-  
+
   if (post instanceof Function) {
     post(setup)
   }

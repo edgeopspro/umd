@@ -12,13 +12,18 @@ def apply():
   target = f'{cwd}/view/public/umd{postfix}'
   paths = listdir(source)
   umd = XML.Element('umd')
+  setup = XML.SubElement(umd, 'setup')
   for path in paths:
     if path.endswith(postfix):
       handler = io_xml.imp(ctx, { 'path': f'{source}/{path}' })
       for node in handler.findall('*'):
-        if node.tag == 'pipeline':
-          node.set('path', path)
-        umd.append(node)
+        if node.tag == 'setup':
+          for child in node:
+            setup.append(child)
+        else:
+          if node.tag == 'pipeline':
+            node.set('path', path)
+          umd.append(node)
   io_xml.exp(ctx, { 'path': target, 'value': umd })
 
 def run():
