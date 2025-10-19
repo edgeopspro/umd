@@ -257,7 +257,9 @@ export async function umd(pre, process, post) {
 
   for (const link of unlinked) {
     const [ key, parent, tag, name ] = link
+
     delete setup.links[key]
+
     for (const prim of setup.primary) {
       if (prim.data.id == parent || prim.tag == parent) {
         const removed = []
@@ -272,21 +274,6 @@ export async function umd(pre, process, post) {
     }
   }
 
-  let y = setup.frame.height
-  for (const state of setup.primary) {
-    state.height = state.parts.length * config.part.height + (state.parts.length + 1) * space
-    state.y = y
-    for (const part of state.parts) {
-      
-      part.y = y
-      y += config.part.height + space
-      
-    }
-    setup.frame.height += state.height + config.margin.y
-    y += space * 2
-  }
-  setup.frame.height += space * 2
-
   const linked = Object.keys(setup.links).map(link => parse(link)[0])
   
   setup.primary.forEach((prim, index) => {
@@ -298,6 +285,22 @@ export async function umd(pre, process, post) {
   })
 
   remove(setup.primary, unprim)
+
+  let y = setup.frame.height
+  for (const state of setup.primary) {
+    state.height = state.parts.length * config.part.height + (state.parts.length + 1) * space
+    state.y = y
+
+    for (const part of state.parts) {
+      
+      part.y = y
+      y += config.part.height + space
+      
+    }
+    setup.frame.height += state.height + config.margin.y
+    y += space * 2
+  }
+  setup.frame.height += space * 2
 
   if (process instanceof Function) {
     process(setup)
