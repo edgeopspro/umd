@@ -121,7 +121,7 @@ class UseParser(BaseParser):
       if 'load' in self.section.props:
         load = self.resolve(self.section.props['load'])
       path = self.resolve(self.section.props['path'])
-      state.use[id] = UMDUseState(path, id, load)
+      state.use[id] = UMDUseState(path, id, load, self.section.props)
 
 
 class VarParser(BaseParser):

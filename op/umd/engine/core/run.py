@@ -103,6 +103,10 @@ class Run(EngineRun):
                 self.info(f'loading tool found for "{id}" with path {handler.load}')
                 valid = True
                 self.data = resolve({ 'path': handler.path })
+                if hasattr(handler, 'props') and isinstance(handler.props, dict):
+                  for key, value in handler.props.items():
+                    if not key in self.data:
+                      self.data[key] = value
                 self.ctx.instances[id] = tool(self.ctx, self.data)
                 self.info(f'resource "{id}" load completed')
               except Exception as error:

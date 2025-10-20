@@ -64,14 +64,16 @@ class UMDPipelineState:
     })
 
 class UMDUseState:
-  def __init__(self, path, id=None, load=None):
+  def __init__(self, path, id=None, load=None, props={}):
     self.id = id
     self.load = load
     self.path = path
+    self.props = props
 
   def __repr__(self):
     return str({
       'path': self.path,
       'id': self.id,
-      'load': self.load
+      'load': self.load,
+      'props': self.props
     })
