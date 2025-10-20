@@ -76,7 +76,8 @@ class ModelParser(BaseParser):
   def parse(self):
     result = {}
     if self.section.children and len(self.section.children) > 0:
-      self.scan(self.section.children[0], result)
+      for child in self.section.children:
+        self.scan(child, result)
     self.state.models[self.section.props['id']] = result
 
   def scan(self, section, result):
