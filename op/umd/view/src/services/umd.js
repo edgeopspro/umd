@@ -265,7 +265,7 @@ export async function umd(pre, process, post) {
         const removed = []
 
         prim.parts.forEach((part, index) => {
-          if (part.tag == tag && part.data.id == name) {
+          if (part.tag == tag && part.data.id == name && part.tag != 'var') {
             removed.push(index)
           }
         })
